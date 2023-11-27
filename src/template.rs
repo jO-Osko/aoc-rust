@@ -35,7 +35,7 @@ macro_rules! solution {
         }
 
         fn main() {
-            let input = aoc::template::read_file("inputs", 1);
+            let input = aoc::template::read_file("inputs", $day);
             print!("{}Part {}{}: ", ANSI_BOLD, 1, ANSI_RESET);
             print_result(part_one, &input);
             print!("{}Part {}{}: ", ANSI_BOLD, 2, ANSI_RESET);
